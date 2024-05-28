@@ -21,7 +21,6 @@ mean_power_list = []
 for i in range(2, m_row1 + 1):  # для всех значений из листа для свода
     cell_ob = sheet_obj1.cell(row=i, column=2)  # дата начала из листа свод2
     data_start = cell_ob.value
-
     date_start_list.append(str(data_start))
     cell_ob2 = sheet_obj1.cell(row=i, column=3)  # дата окончания из листа свод2
     data_stop = cell_ob2.value
